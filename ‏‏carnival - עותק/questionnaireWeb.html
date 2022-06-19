@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+          
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+          <link rel="stylesheet" href="css/app.css">    
+          
+          <!-- Google Font -->
+          <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+                rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+
+          <title>questionnaireWeb</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img  src="pic/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="homeWeb.html">Home
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutWeb.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="mediaWeb.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="faqWeb.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactWeb.html" >Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+
+              <div class="container">
+                <p>
+                  <h6 class="question0"></h6>
+                <div class="form-check">
+                  <label onclick="deteminingAnAnswer(0,0)" class="answer00 form-check-label">
+                  </label>
+                  <br>
+                  <label onclick="deteminingAnAnswer(0,1)" class="answer01 form-check-label">
+                  </label>
+                  <br>
+                  <label onclick="deteminingAnAnswer(0,2)" class="answer02 form-check-label">
+                  </label>
+                  <br>
+                  <label onclick="deteminingAnAnswer(0,3)" class="answer03 form-check-label">
+                  </label>
+                </div>
+            </p>
+            <p>
+              <h6 class="question1"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(1,0)" class="answer10 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(1,1)" class="answer11 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(1,2)" class="answer12 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(1,3)" class="answer13 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question2"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(2,0)" class="answer20 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(2,1)" class="answer21 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(2,2)" class="answer22 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(2,3)" class="answer23 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question3"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(3,0)" class="answer30 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(3,1)" class="answer31 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(3,2)" class="answer32 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(3,3)" class="answer33 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question4"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(4,0)" class="answer40 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(4,1)" class="answer41 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(4,2)" class="answer42 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(4,3)" class="answer43 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question5"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(5,0)" class="answer50 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(5,1)" class="answer51 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(5,2)" class="answer52 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(5,3)" class="answer53 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question6"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(6,0)" class="answer60 form-check-label">
+              </label>
+                <br>
+                <label onclick="deteminingAnAnswer(6,1)" class="answer61 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(6,2)" class="answer62 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(6,3)" class="answer63 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question7"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(7,0)" class="answer70 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(7,1)" class="answer71 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(7,2)" class="answer72 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(7,3)" class="answer73 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question8"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(8,0)" class="answer80 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(8,1)" class="answer81 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(8,2)" class="answer82 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(8,3)" class="answer83 form-check-label">
+                </label>
+              </div>
+            </p>
+            <p>
+              <h6 class="question9"></h6>
+              <div class="form-check">
+                <label onclick="deteminingAnAnswer(9,0)" class="answer90 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(9,1)" class="answer91 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(9,2)" class="answer92 form-check-label">
+                </label>
+                <br>
+                <label onclick="deteminingAnAnswer(9,3)" class="answer93 form-check-label">
+
+                </label>
+              </div>
+            </p>
+            <div class="container">
+              <button onclick="checkAnswers()" type="button" class="btn btn-sl btn-primary Checked">Checked</button>
+              <button onclick="restart()" type="button" class="btn btn-sl btn-primary tryAgain" >try Again</button>
+              <br>
+              <span class="score"></span>
+            </div>
+            </div>
+
+
+
+              <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-center">
+                  <small>Copyright &copy; Built by isaac yusopov <br>Contennt is taken from Wikipedia</small>
+                </div>
+              </footer>
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+     <script src="js/scriptQuestionnaire.js"></script>   
+</body>
+</html>

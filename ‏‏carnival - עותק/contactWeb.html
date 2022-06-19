@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+          
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+          <link rel="stylesheet" href="css/app.css">    
+          
+          <!-- Google Font -->
+          <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
+                rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&display=swap" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+
+          <title>contactWeb</title>
+</head>
+<body>
+  
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img  src="pic/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="homeWeb.html">Home
+                        <span class="sr-only">(current)</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutWeb.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="mediaWeb.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="faqWeb.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#" >Contact</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+                <div class="container mb-5">
+                    <h2 class="text-center">Details about New Orleans</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-md-around ">
+                          <div class="m-auto m-md-2 text-center text-md-left">
+                            <h6>You can contact us in the following ways</h6>
+                            <hr>
+                          <ul class="list-inline text-left">
+                              <li class="mb-2"><label>mail:</label> victor@gmail.com</li>
+                              <li class="mb-2"><label>phone:</label> +72 4938453</li>
+                              <li class="mb-2"><label>Address:</label> 325-357 Carondelet St, New Orleans, LA 70130, US</li>
+                              <li class="mb-2"><label>Zip:</label> 566558</li>
+                              
+                            </ul>
+                          </div>
+
+                            <div class="m-auto m-md-4 text-center text-md-left">
+                              <h6>Area map</h6>
+                              <hr>
+                              <iframe class="w-100 w-md-75 h-100 h-md-75" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d442130.55147558707!2d-89.60237363860412!3d30.03269959693466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a454b2118265%3A0xdb065be85e22d3b4!2z16DXmdeVINeQ15XXqNec15nXoNehLCDXnNeV15DXmdeW15nXkNeg15QsINeQ16jXpteV16og15TXkdeo15nXqg!5e0!3m2!1siw!2sil!4v1616608635538!5m2!1siw!2sil" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                          </div>
+                          </div>
+                    </div>
+            
+
+                  <div class="container mb-5">
+  <h2 class="text-center">contact</h2>
+
+
+              <form>
+                <div class="form-row">
+                  <div class="col-md-4 mb-3">
+                    <label for="validationServer01">First name</label>
+                    <input onchange="checkFName()" type="text" class="form-control" id="validationServer01" placeholder="First name" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+
+
+                  <div class="col-md-4 mb-3">
+                    <label for="validationServer02">Last name</label>
+                    <input onchange="checkLName()" type="text" class="form-control" id="validationServer02" placeholder="Last name" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label for="validationServerUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                      </div>
+                      <input onchange="checkMail()" type="email" class="form-control" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                      <div class="invalid-feedback">
+                        Please choose a username.
+                      </div>
+                    </div>
+                  </div>                 
+                </div>
+
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer03">City</label>
+                    <input onchange="checkCity()" type="text" class="form-control" id="validationServer03" placeholder="City" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationServer04">State</label>
+                    <input onchange="checkState()" type="text" class="form-control" id="validationServer04" placeholder="State" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationServer05">Write to us</label>
+                    <textarea onchange="checkText()" type="text" class="form-control" id="validationServer05" placeholder="Write to us"></textarea>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                      Please enter at least 10 characters.
+                    </div>
+                  </div>
+                </div>           
+              </form>                               
+              <button onclick="checkAndSend()" class="btn btn-primary">Submit form</button>
+                  </div>    
+
+              <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+                <div class="container text-center">
+                  <small>Copyright &copy; Built by isaac yusopov <br>Contennt is taken from Wikipedia</small>
+                </div>
+              </footer>
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+     <script src="js/scriptContact.js"></script>   
+</body>
+</html>
