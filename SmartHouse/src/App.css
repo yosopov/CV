@@ -1,0 +1,39 @@
+body{
+  border: 1px black solid;
+  margin: 50px 19% 0px;
+}
+.App {
+  margin:5% ;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.btn ,.btn-secondary ,.active{
+  margin-top:12%;
+}
+
+#inputGroupSelect01.custom-select{
+  margin: auto;
+  flex:none;
+  width: 189.93px;
+}
+.btn-primary{
+  margin: 0px;
+}
