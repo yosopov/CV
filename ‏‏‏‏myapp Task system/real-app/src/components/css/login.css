@@ -1,0 +1,22 @@
+.login{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+
+.containerLogin{
+    background-color: aliceblue;
+}
+@media screen and (max-width :650px) {
+    .passwordInput{
+        width: 80px;
+    }
+    .nameInput{
+        width: 80px;
+    }
+}
+.labelImage{
+    border: 1px solid #ced4da;
+    padding: 10px;
+    cursor: pointer;
+}

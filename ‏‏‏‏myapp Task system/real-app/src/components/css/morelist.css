@@ -1,0 +1,40 @@
+#moreListDiv{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #e9ddced4;
+    padding: 10px;
+}
+
+.moreListImput{
+    background-color: #e9c99e;
+    height: 90px !important;
+    width: 40% !important;
+    padding: 20px;
+    border: 1px solid;
+}
+
+
+.moreListButton{
+    margin-left: 4px;
+    border-radius: 50%;
+    border-color: #f0f8ff00;
+    position: relative;
+    top: 7px;
+}
+.addTask{
+    direction: rtl;
+    border-radius: 4.5em 0em 0em 4em / 5em 7em 0em 5em !important;
+}
+
+@media screen and (max-width:800px) {
+    .addTask{
+        height: 59px;
+        width: 104px;
+    }
+    .addTask>h3{
+        font-size: 12px;
+    }
+    
+}
+

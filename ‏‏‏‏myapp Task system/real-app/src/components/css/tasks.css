@@ -1,0 +1,46 @@
+.successRemove{
+    transition:all 3s;
+    
+}
+.containerTask{
+    position: relative;
+    transition:all 3s;
+    transform: scale(1) translate(-100%);
+    opacity:0;
+}
+
+
+#tasksdiv{
+    direction:ltr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #e9c99e;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10%/50px;
+}
+.taskinput{
+    margin: 0px 3%;
+    height: 80px;
+    width: 42%;
+    height: 100px !important;
+    font-size: 20px;
+    text-align: center;
+}
+.changeTask{
+    margin: 0px 3%;
+    height: 80px;
+    width: 100%;
+    height: 100px ;
+    font-size: 20px;
+    text-align: center;
+}
+@media screen and (max-width:800px) {
+    #tasksdiv{
+        width: 100%;
+    }
+    
+}
